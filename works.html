@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Works | SHUN</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ナビゲーション -->
+  <header>
+    <nav>
+      <a href="index.html" class="nav-logo">
+        <span class="nav-logo-name">SHUN</span>
+        <span class="nav-logo-sub">Web Designer / Coder</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="works.html" class="active">Works</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="メニューを開く">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+  <div class="mobile-nav-overlay" id="mobile-nav-overlay"></div>
+  <nav class="mobile-nav" id="mobile-nav">
+    <ul>
+      <li><a href="about.html">About</a></li>
+      <li><a href="works.html" class="active">Works</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Works -->
+  <main class="works-page">
+    <div class="container">
+      <h1 class="section-title">Works</h1>
+      <p class="section-desc">これまでに制作したWebサイトの一部です。<br>デザインからコーディングまで一貫して制作しています。</p>
+
+      <!-- フィルタータブ -->
+      <div class="works-filter">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="corporate">Corporate</button>
+        <button class="filter-btn" data-filter="service">Service</button>
+        <button class="filter-btn" data-filter="lp">LP</button>
+        <button class="filter-btn" data-filter="other">Other</button>
+      </div>
+
+      <!-- 作品グリッド -->
+      <div class="works-grid" id="works-grid">
+
+        <div class="work-item" data-category="corporate">
+          <div class="work-thumb">
+            <!-- images/work1.jpg を用意してください -->
+            <img src="images/work1.jpg" alt="Outdoor Life">
+          </div>
+          <div class="work-info">
+            <h3>Outdoor Life</h3>
+            <p>コーポレートサイト</p>
+          </div>
+        </div>
+
+        <div class="work-item" data-category="corporate">
+          <div class="work-thumb">
+            <img src="images/work2.jpg" alt="Connect Design">
+          </div>
+          <div class="work-info">
+            <h3>Connect Design</h3>
+            <p>コーポレートサイト</p>
+          </div>
+        </div>
+
+        <div class="work-item" data-category="lp">
+          <div class="work-thumb">
+            <img src="images/work3.jpg" alt="Natura Organics">
+          </div>
+          <div class="work-info">
+            <h3>Natura Organics</h3>
+            <p>LPサイト</p>
+          </div>
+        </div>
+
+        <div class="work-item" data-category="service">
+          <div class="work-thumb">
+            <img src="images/work4.jpg" alt="Good Eats">
+          </div>
+          <div class="work-info">
+            <h3>Good Eats</h3>
+            <p>サービスサイト</p>
+          </div>
+        </div>
+
+        <div class="work-item" data-category="corporate">
+          <div class="work-thumb">
+            <img src="images/work5.jpg" alt="TechSolution">
+          </div>
+          <div class="work-info">
+            <h3>TechSolution</h3>
+            <p>コーポレートサイト</p>
+          </div>
+        </div>
+
+        <div class="work-item" data-category="corporate">
+          <div class="work-thumb">
+            <img src="images/work6.jpg" alt="LUXE HOUSE">
+          </div>
+          <div class="work-info">
+            <h3>LUXE HOUSE</h3>
+            <p>コーポレートサイト</p>
+          </div>
+        </div>
+
+        <div class="work-item" data-category="lp">
+          <div class="work-thumb">
+            <img src="images/work7.jpg" alt="Bloom Skincare">
+          </div>
+          <div class="work-info">
+            <h3>Bloom Skincare</h3>
+            <p>LPサイト</p>
+          </div>
+        </div>
+
+        <div class="work-item" data-category="other">
+          <div class="work-thumb">
+            <img src="images/work8.jpg" alt="Personal Portfolio">
+          </div>
+          <div class="work-info">
+            <h3>Personal Portfolio</h3>
+            <p>ポートフォリオ</p>
+          </div>
+        </div>
+
+        <div class="work-item" data-category="service">
+          <div class="work-thumb">
+            <img src="images/work9.jpg" alt="Fit Studio">
+          </div>
+          <div class="work-info">
+            <h3>Fit Studio</h3>
+            <p>サービスサイト</p>
+          </div>
+        </div>
+
+        <div class="work-item" data-category="lp">
+          <div class="work-thumb">
+            <a href="LP_sample_1/index.html" target="_blank" rel="noopener">
+              <img src="images/work10.jpg" alt="PERSONAL GYM STUDIO">
+            </a>
+          </div>
+          <div class="work-info">
+            <h3>PERSONAL GYM STUDIO</h3>
+            <p>LPサイト</p>
+            <a href="LP_sample_1/index.html" target="_blank" rel="noopener" class="work-link">サイトを見る →</a>
+          </div>
+        </div>
+
+        <div class="work-item" data-category="lp">
+          <div class="work-thumb">
+            <a href="LP_sample_2/index.html" target="_blank" rel="noopener">
+              <img src="images/work11.jpg" alt="English School">
+            </a>
+          </div>
+          <div class="work-info">
+            <h3>English School</h3>
+            <p>LPサイト</p>
+            <a href="LP_sample_2/index.html" target="_blank" rel="noopener" class="work-link">サイトを見る →</a>
+          </div>
+        </div>
+
+        <div class="work-item" data-category="lp">
+          <div class="work-thumb">
+            <a href="LP_sample_3/index.html" target="_blank" rel="noopener">
+              <img src="images/work12.jpg" alt="RESET PROTEIN">
+            </a>
+          </div>
+          <div class="work-info">
+            <h3>RESET PROTEIN</h3>
+            <p>LPサイト</p>
+            <a href="LP_sample_3/index.html" target="_blank" rel="noopener" class="work-link">サイトを見る →</a>
+          </div>
+        </div>
+
+        <div class="work-item" data-category="lp">
+          <div class="work-thumb">
+            <a href="LP_sample_4/index.html" target="_blank" rel="noopener">
+              <img src="images/work13.jpg" alt="Code Academy Studio">
+            </a>
+          </div>
+          <div class="work-info">
+            <h3>Code Academy Studio</h3>
+            <p>LPサイト</p>
+            <a href="LP_sample_4/index.html" target="_blank" rel="noopener" class="work-link">サイトを見る →</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="works-more">
+        <a href="contact.html" class="btn">View More Works &rarr;</a>
+      </div>
+    </div>
+  </main>
+
+  <!-- フッター -->
+  <footer>
+    <div class="footer-inner">
+      <p class="footer-copy">&copy; 2024 SHUN</p>
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="works.html">Works</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

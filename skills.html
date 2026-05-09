@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skills | SHUN</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ナビゲーション -->
+  <header>
+    <nav>
+      <a href="index.html" class="nav-logo">
+        <span class="nav-logo-name">SHUN</span>
+        <span class="nav-logo-sub">Web Designer / Coder</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="works.html">Works</a></li>
+        <li><a href="skills.html" class="active">Skills</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="メニューを開く">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+  <div class="mobile-nav-overlay" id="mobile-nav-overlay"></div>
+  <nav class="mobile-nav" id="mobile-nav">
+    <ul>
+      <li><a href="about.html">About</a></li>
+      <li><a href="works.html">Works</a></li>
+      <li><a href="skills.html" class="active">Skills</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Skills -->
+  <main class="skills-page">
+    <div class="container">
+      <div class="skills-grid">
+
+        <!-- スキルバー（左） -->
+        <div class="skills-main">
+          <h1 class="section-title">Skills</h1>
+          <p class="section-desc">得意なスキルと、日々磨いている技術です。</p>
+
+          <ul class="skill-list">
+            <li class="skill-row">
+              <span class="skill-name">HTML / CSS</span>
+              <div class="skill-bar">
+                <div class="skill-bar-fill" data-width="90%"></div>
+              </div>
+              <span class="skill-pct">90%</span>
+            </li>
+            <li class="skill-row">
+              <span class="skill-name">JavaScript</span>
+              <div class="skill-bar">
+                <div class="skill-bar-fill" data-width="80%"></div>
+              </div>
+              <span class="skill-pct">80%</span>
+            </li>
+            <li class="skill-row">
+              <span class="skill-name">WordPress</span>
+              <div class="skill-bar">
+                <div class="skill-bar-fill" data-width="85%"></div>
+              </div>
+              <span class="skill-pct">85%</span>
+            </li>
+            <li class="skill-row">
+              <span class="skill-name">Figma</span>
+              <div class="skill-bar">
+                <div class="skill-bar-fill" data-width="90%"></div>
+              </div>
+              <span class="skill-pct">90%</span>
+            </li>
+            <li class="skill-row">
+              <span class="skill-name">Responsive Design</span>
+              <div class="skill-bar">
+                <div class="skill-bar-fill" data-width="90%"></div>
+              </div>
+              <span class="skill-pct">90%</span>
+            </li>
+            <li class="skill-row">
+              <span class="skill-name">Photoshop / Illustrator</span>
+              <div class="skill-bar">
+                <div class="skill-bar-fill" data-width="75%"></div>
+              </div>
+              <span class="skill-pct">75%</span>
+            </li>
+            <li class="skill-row">
+              <span class="skill-name">SEO</span>
+              <div class="skill-bar">
+                <div class="skill-bar-fill" data-width="70%"></div>
+              </div>
+              <span class="skill-pct">70%</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- その他スキル＋写真（右） -->
+        <div class="skills-side">
+          <h3>その他のスキル</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Git / GitHub</span>
+            <span class="skill-tag">Sass / SCSS</span>
+            <span class="skill-tag">jQuery</span>
+            <span class="skill-tag">UI / UX Design</span>
+            <span class="skill-tag">Web Performance</span>
+          </div>
+
+          <div class="skills-side-image">
+            <!-- images/skills-bg.jpg を用意してください（作業風景など） -->
+            <img src="images/skills-bg.jpg" alt="作業風景">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- フッター -->
+  <footer>
+    <div class="footer-inner">
+      <p class="footer-copy">&copy; 2024 SHUN</p>
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="works.html">Works</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

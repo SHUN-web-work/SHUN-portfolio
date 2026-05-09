@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SHUN | Web Designer &amp; Coder</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ナビゲーション -->
+  <header>
+    <nav>
+      <a href="index.html" class="nav-logo">
+        <span class="nav-logo-name">SHUN</span>
+        <span class="nav-logo-sub">Web Designer / Coder</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="works.html">Works</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="メニューを開く">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+  <div class="mobile-nav-overlay" id="mobile-nav-overlay"></div>
+  <nav class="mobile-nav" id="mobile-nav">
+    <ul>
+      <li><a href="about.html">About</a></li>
+      <li><a href="works.html">Works</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">Design with Purpose.<br>Code with Precision.</h1>
+      <p class="hero-desc">
+        目的をもったデザインと、正確なコードで、<br>
+        成果につながるWebサイトをつくります。
+      </p>
+      <a href="works.html" class="btn">View Works &rarr;</a>
+    </div>
+    <div class="hero-image">
+      <!-- images/hero.jpg を用意してください（デスクワーク・PC画像など） -->
+      <img src="images/hero.jpg" alt="Hero Image">
+    </div>
+  </section>
+
+  <!-- About Me プレビュー -->
+  <section class="home-about">
+    <div class="container">
+      <div class="home-about-inner">
+        <div class="home-about-text">
+          <p class="section-heading">ABOUT ME</p>
+          <p>
+            はじめまして、SHUNです。<br>
+            Webデザイナー・コーダーとして、<br>
+            シンプルで伝わるデザイン、使いやすいコードを大切にしながら、<br>
+            ユーザーの心を動かすWebサイトを制作しています。
+          </p>
+          <a href="about.html" class="btn-link">More About Me &rarr;</a>
+        </div>
+        <div class="home-about-image">
+          <!-- images/about-preview.jpg を用意してください -->
+          <img src="images/about-preview.png" alt="About Me">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- フッター -->
+  <footer>
+    <div class="footer-inner">
+      <p class="footer-copy">&copy; 2024 SHUN</p>
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="works.html">Works</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

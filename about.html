@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | SHUN</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ナビゲーション -->
+  <header>
+    <nav>
+      <a href="index.html" class="nav-logo">
+        <span class="nav-logo-name">SHUN</span>
+        <span class="nav-logo-sub">Web Designer / Coder</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="works.html">Works</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="メニューを開く">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+  <div class="mobile-nav-overlay" id="mobile-nav-overlay"></div>
+  <nav class="mobile-nav" id="mobile-nav">
+    <ul>
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="works.html">Works</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- About -->
+  <main class="about-page">
+    <div class="container">
+      <div class="about-grid">
+
+        <!-- メインコンテンツ（左） -->
+        <div class="about-main">
+          <h1 class="section-title">About Me</h1>
+          <p class="about-intro">
+            はじめまして、SHUNです。<br>
+            岩手県出身・新潟在住の40代です。<br>
+            デザインからコーディングまで一貫して制作できます。<br>
+            シンプルで伝わるデザイン、使いやすいコードを大切にしながら、<br>
+            ユーザーの心を動かすWebサイトを制作しています。
+          </p>
+
+          <!-- 経歴 -->
+          <div class="about-career">
+            <h3>経歴</h3>
+            <ul class="career-list">
+              <li class="career-item">
+                <span class="career-year">〜現在</span>
+                <span class="career-desc">会社員として機械関係の保守業務に従事。</span>
+              </li>
+              <li class="career-item">
+                <span class="career-year">2022</span>
+                <span class="career-desc">オンラインスクール（デイトラ）にてWeb制作の基礎知識を習得。</span>
+              </li>
+              <li class="career-item">
+                <span class="career-year">現在</span>
+                <span class="career-desc">デザインからコーディングまで一貫してWeb制作を行っています。</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- 強み -->
+          <div class="about-strengths">
+            <h3>強み</h3>
+            <div class="strengths-grid">
+              <div class="strength-item">
+                <div class="strength-icon">🎨</div>
+                <h4>デザイン</h4>
+                <p>シンプルで分かりやすく、目的を達成するデザインを心がけています。</p>
+              </div>
+              <div class="strength-item">
+                <div class="strength-icon">&lt;/&gt;</div>
+                <h4>コーディング</h4>
+                <p>正確で保守性の高いコードを書き、デザインを忠実に実装します。</p>
+              </div>
+              <div class="strength-item">
+                <div class="strength-icon">💬</div>
+                <h4>コミュニケーション</h4>
+                <p>丁寧なヒアリングと迅速な対応で、信頼される制作を目指します。</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tools -->
+          <div class="about-tools">
+            <h3>Tools</h3>
+            <div class="tools-list">
+              <span class="tool-tag">🎨 Figma</span>
+              <span class="tool-tag">💻 VS Code</span>
+              <span class="tool-tag">🌐 WordPress</span>
+              <span class="tool-tag">🖼 Photoshop</span>
+              <span class="tool-tag">✏️ Illustrator</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- プロフィール写真（右） -->
+        <div class="about-side">
+          <!-- images/profile.jpg を用意してください -->
+          <img src="images/profile.png" alt="SHUN">
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- フッター -->
+  <footer>
+    <div class="footer-inner">
+      <p class="footer-copy">&copy; 2024 SHUN</p>
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="works.html">Works</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
