@@ -543,10 +543,11 @@ footer {
 }
 
 .skill-row {
-  display: grid;
-  grid-template-columns: 160px 1fr 36px;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  gap: 16px;
+  padding: 12px 0;
+  border-bottom: 1px solid #f0f0f0;
 }
 
 .skill-name {
@@ -554,25 +555,28 @@ footer {
   color: #333;
 }
 
-.skill-bar {
-  height: 3px;
-  background-color: #e8e8e8;
-  border-radius: 2px;
-  overflow: hidden;
+/* レベルバッジ */
+.level-badge {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 20px;
+  white-space: nowrap;
 }
 
-.skill-bar-fill {
-  height: 100%;
+.level-expert {
   background-color: #111;
-  border-radius: 2px;
-  width: 0;
-  transition: width 1.2s ease;
+  color: #fff;
 }
 
-.skill-pct {
-  font-size: 0.78rem;
-  color: #999;
-  text-align: right;
+.level-mid {
+  background-color: #e8f4ea;
+  color: #2e7d32;
+}
+
+.level-learning {
+  background-color: #f0f0f0;
+  color: #888;
 }
 
 /* その他スキル */
