@@ -765,6 +765,27 @@ footer {
   border: none;
 }
 
+/* Googleフォーム送信用の非表示フレーム */
+.hidden-form-iframe {
+  display: none;
+}
+
+/* 送信完了メッセージ（通常は非表示、送信後に表示） */
+.form-thanks {
+  display: none;
+  padding: 32px 24px;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  background: #fafafa;
+  font-size: 0.95rem;
+  line-height: 1.9;
+  color: #333;
+}
+
+.form-thanks.is-visible {
+  display: block;
+}
+
 /* Contact サイド */
 .contact-side {
   padding-top: 16px;

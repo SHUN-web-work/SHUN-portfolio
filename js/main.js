@@ -87,13 +87,19 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 /* ========================================
-   お問い合わせフォーム送信（仮）
+   お問い合わせフォーム送信
+   （見た目は自作フォーム、送信先はGoogleフォーム）
 ======================================== */
 const form = document.getElementById('contact-form');
 if (form) {
-  form.addEventListener('submit', (e) => {
-    e.preventDefault();
-    alert('送信しました。ありがとうございます。\n2〜3営業日以内にご返信いたします。');
-    form.reset();
+  form.addEventListener('submit', () => {
+    // 必須項目が未入力ならブラウザの検証で止まり、この処理は走らない。
+    // 検証を通過した場合のみ、非表示iframe宛てに送信されるので、
+    // 画面遷移せずにフォームを隠して完了メッセージを表示する。
+    const thanks = document.getElementById('form-thanks');
+    setTimeout(() => {
+      form.style.display = 'none';
+      if (thanks) thanks.classList.add('is-visible');
+    }, 400);
   });
 }
